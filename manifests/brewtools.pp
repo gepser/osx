@@ -15,6 +15,9 @@ class gettingstarted::brewtools {
         'ctop',
         'go',
         'node',
+        'vim',
+        'firefox',
+        'google-chrome',
         ]
 
     package { $pkglist:
@@ -38,5 +41,18 @@ class gettingstarted::brewtools {
         require  => Package['openssl'],
     }
 
+    casklist = [
+        'atom',
+        'intellij-idea',
+        'araxis-merge',
+        'virtualbox',
+        'vagrant',
+        'vagrant-manager',
+        'docker',
+    ]
 
+    package { $casklist:
+        ensure   => present,
+        provider => brewcask,
+    }
 }
