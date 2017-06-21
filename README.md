@@ -12,10 +12,14 @@ Install everything you need on your laptop, powered by Puppet.
 
 I will probably automate this steps too but for now let's write them down here.
 
-- Install puppet.
+### Install puppet
 
     gem install puppet -v 3.8.4
 
-- Install brew
+### Install homebrew
 
-    
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+### Run it
+
+    puppet apply manifests/osx.pp
