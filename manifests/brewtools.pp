@@ -6,7 +6,6 @@ class gettingstarted::brewtools {
         'ctags',
         'git',
         'git-flow',
-        'openssl',
         'reattach-to-user-namespace',
         'the_silver_searcher',
         'tmux',
@@ -14,9 +13,16 @@ class gettingstarted::brewtools {
         'pidof',
         'jq',
         'ctop',
+        'go',
+        'node',
         ]
 
     package { $pkglist:
+        ensure   => present,
+        provider => brew,
+    }
+
+    package { 'openssl':
         ensure   => present,
         provider => brew,
     }
@@ -25,4 +31,12 @@ class gettingstarted::brewtools {
         ensure   => present,
         provider => tap,
     }
+
+    package { 'libyaml':
+        ensure   => present,
+        provider => brew,
+        require  => Package['openssl'],
+    }
+
+
 }
