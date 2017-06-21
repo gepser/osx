@@ -14,8 +14,8 @@ I will probably automate this steps too but for now let's write them down here.
 
 ### Install puppet and librarian
 
-    gem install puppet -v 3.8.4
-    gem install librarian-puppet
+    sudo gem install puppet -v 3.8.4
+    sudo gem install librarian-puppet
 
 ### Install homebrew
 
