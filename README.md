@@ -23,3 +23,7 @@ I will probably automate this steps too but for now let's write them down here.
 ### Run it
 
     puppet apply manifests/osx.pp
+
+### Install dependencies
+
+    make dependencies
