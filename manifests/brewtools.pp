@@ -6,6 +6,14 @@ class gettingstarted::brewtools {
         'ctags',
         'git',
         'git-flow',
+        'openssl',
+        'reattach-to-user-namespace',
+        'the_silver_searcher',
+        'tmux',
+        'tree',
+        'pidof',
+        'jq',
+        'ctop',
         ]
 
     package { $pkglist:
