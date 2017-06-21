@@ -12,9 +12,10 @@ Install everything you need on your laptop, powered by Puppet.
 
 I will probably automate this steps too but for now let's write them down here.
 
-### Install puppet
+### Install puppet and librarian
 
     gem install puppet -v 3.8.4
+    gem install librarian-puppet
 
 ### Install homebrew
 
@@ -27,3 +28,10 @@ I will probably automate this steps too but for now let's write them down here.
 ### Install dependencies
 
     make dependencies
+
+### Resources
+
+https://puppet.com/presentations/designing-puppet-rolesprofiles-pattern
+http://librarian-puppet.com/
+https://gist.github.com/jordigg/be23c98e8adbf37f2d8c
+https://forge.puppet.com/thekevjames/homebrew/dependencies
