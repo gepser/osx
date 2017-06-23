@@ -2,3 +2,5 @@
 modules/
 .librarian/
 Puppetfile.lock
+manifests/internalbrewtools.pp
+.DS_Store
