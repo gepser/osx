@@ -1,5 +1,5 @@
 install:	
-	sudo puppet apply manifests/site.pp --modulepath=./modules
+	sudo puppet apply manifests/init.pp --verbose
 
 dependencies:
 	sudo puppet module install thekevjames-homebrew --version 1.6.0
