@@ -1,5 +1,3 @@
-class gettingstarted () {
+class osx () {
     include gettingstarted::brewtools
-    include gettingstarted::config
-    #include gettingstarted::internalbrewtools
 }
