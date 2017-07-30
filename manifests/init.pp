@@ -1,3 +1,3 @@
-class gettingstarted {
-    include gettingstarted::brewtools
+class osx {
+    include osx::brewtools
 }
