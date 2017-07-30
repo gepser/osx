@@ -1,4 +1,4 @@
-class gettingstarted::config () {
+class osx::config () {
     
     Exec {
         path   => '/usr/bin:/usr/sbin:/bin',
