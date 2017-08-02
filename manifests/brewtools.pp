@@ -29,6 +29,7 @@ class osx::brewtools {
         'vagrant-manager',
         'docker',
         'iterm2',
+        'visual-studio-code',
     ]
 
     package { $casklist:
