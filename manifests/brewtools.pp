@@ -10,7 +10,6 @@ class osx::brewtools {
         'ctop',
         'go',
         'node',
-        'google-chrome',
         ]
 
     package { $pkglist:
@@ -30,6 +29,7 @@ class osx::brewtools {
         'docker',
         'iterm2',
         'visual-studio-code',
+        'google-chrome',
     ]
 
     package { $casklist:
