@@ -12,7 +12,7 @@ class osx::extras () {
         'spotify',
         '1password',
         'spectacle',
-        'google-drive',
+        'google-backup-and-sync',
         'adobe-creative-cloud',
     ]
 
