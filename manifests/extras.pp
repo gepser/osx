@@ -9,6 +9,7 @@ class osx::extras () {
     }
 
     casklist = [
+        'slack',
         'spotify',
         '1password',
         'spectacle',
